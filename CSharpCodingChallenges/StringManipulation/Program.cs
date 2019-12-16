@@ -8,6 +8,9 @@ namespace StringManipulation
         {
             var reversedString = StringManipulation.ReverseString("Test");
             Console.WriteLine($"Reversed String: { reversedString } ");
+
+            var stringcase = StringManipulation.ReturnStringCase("A");
+            Console.WriteLine($"String case is: { stringcase } ");
         }
     }
 }
