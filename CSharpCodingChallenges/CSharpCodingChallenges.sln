@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonCodingQuestions", "Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{A2840410-5F11-4F17-AC73-FCC46C31F770}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arithmetic", "Arithmetic\Arithmetic.csproj", "{417382F8-A808-497F-92B8-3EAFA26751F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq", "Linq\Linq.csproj", "{C3028315-1BAD-4887-A616-B36B88D5C025}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,5 +29,13 @@ Global
 		{A2840410-5F11-4F17-AC73-FCC46C31F770}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2840410-5F11-4F17-AC73-FCC46C31F770}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2840410-5F11-4F17-AC73-FCC46C31F770}.Release|Any CPU.Build.0 = Release|Any CPU
+		{417382F8-A808-497F-92B8-3EAFA26751F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{417382F8-A808-497F-92B8-3EAFA26751F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{417382F8-A808-497F-92B8-3EAFA26751F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{417382F8-A808-497F-92B8-3EAFA26751F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3028315-1BAD-4887-A616-B36B88D5C025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3028315-1BAD-4887-A616-B36B88D5C025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3028315-1BAD-4887-A616-B36B88D5C025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3028315-1BAD-4887-A616-B36B88D5C025}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
