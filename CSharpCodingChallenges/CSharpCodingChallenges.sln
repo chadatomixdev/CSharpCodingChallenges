@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arithmetic", "Arithmetic\Ar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq", "Linq\Linq.csproj", "{C3028315-1BAD-4887-A616-B36B88D5C025}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRankWarmupChallenges", "HackerRankWarmupChallenges\HackerRankWarmupChallenges.csproj", "{6288E4A1-02F9-469A-AFEC-3A97A49C106D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,5 +39,9 @@ Global
 		{C3028315-1BAD-4887-A616-B36B88D5C025}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3028315-1BAD-4887-A616-B36B88D5C025}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3028315-1BAD-4887-A616-B36B88D5C025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6288E4A1-02F9-469A-AFEC-3A97A49C106D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6288E4A1-02F9-469A-AFEC-3A97A49C106D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6288E4A1-02F9-469A-AFEC-3A97A49C106D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6288E4A1-02F9-469A-AFEC-3A97A49C106D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
