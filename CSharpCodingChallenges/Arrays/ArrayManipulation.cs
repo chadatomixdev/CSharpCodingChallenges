@@ -23,5 +23,42 @@ namespace Arrays
 
             return sum;
         }
+
+        //You are given an unordered array consisting of consecutive integers  [1, 2, 3, ..., n] without any duplicates.
+        //You are allowed to swap any two elements. You need to find the minimum number of swaps required to sort the array in ascending order.
+        public static int minimumSwaps(int[] arr)
+        {
+
+            var SortedArray = arr.OrderBy(i => i).ToArray();
+            var unsortedArray = arr;
+            var minSwaps = 0;
+
+            var temp = 0;
+
+            //Looping through the sorted array
+            for (int i = 0; i < SortedArray.Length; i++)
+            {
+                //Comparing the unsorted array to the sorted array
+                if (SortedArray[i] != unsortedArray[i])
+                {
+                    temp = unsortedArray[i];
+                    unsortedArray[i] = SortedArray[i];
+
+                    for (int j = i +1; j < SortedArray.Length; j++)
+                    {
+                        if (unsortedArray[j] == SortedArray[i])
+                        {
+                            unsortedArray[j] = temp;
+                            minSwaps++;
+                            break;
+                        }
+                    }
+                }
+
+            }
+
+            return minSwaps;
+        }
+
     }
 }
